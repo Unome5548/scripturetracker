@@ -26,7 +26,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mark Individual Scripture Reading" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVo-HE-Mtm">
                                                 <rect key="frame" x="170" y="35" width="259.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jze-Ws-07F">
@@ -89,7 +89,7 @@
                                                 <rect key="frame" x="225" y="72" width="150" height="150"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.32239438710000001" green="0.63188905250000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="jze-Ws-07F" firstAttribute="top" secondItem="bCB-sU-XPZ" secondAttribute="top" constant="230" id="4eW-eB-xMi"/>
                                             <constraint firstAttribute="centerX" secondItem="eVo-HE-Mtm" secondAttribute="centerX" id="5te-h1-IWO"/>
@@ -179,7 +179,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.32239438706607071" green="0.63188905250263927" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="2h2-mN-ZZ7" firstAttribute="width" secondItem="MkK-DN-qZr" secondAttribute="width" id="P8S-c0-78W"/>
                                             <constraint firstAttribute="centerX" secondItem="seF-N2-Cfq" secondAttribute="centerX" id="PWI-xf-ece"/>
@@ -336,7 +336,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.22305168880000001" green="0.62397376039999997" blue="0.82595486110000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.32239438710000001" green="0.63188905250000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="DUu-53-WU4" firstAttribute="leading" secondItem="pFq-vV-qye" secondAttribute="leading" constant="25" id="B1O-2p-SgD"/>
                                     <constraint firstAttribute="centerY" secondItem="E94-xi-rPb" secondAttribute="centerY" constant="0.5" id="BZU-t9-G2g"/>

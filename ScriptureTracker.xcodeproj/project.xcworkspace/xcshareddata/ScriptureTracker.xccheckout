@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>61487DF7-C3A5-4DA8-99EF-EAC731E845DC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5DC875FC4C415A4ED8B9287125A9F9E65FE25A7D</key>
+		<string>https://github.com/Unome5548/scripturetracker.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5DC875FC4C415A4ED8B9287125A9F9E65FE25A7D</key>
+		<string>scripturetracker/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Unome5548/scripturetracker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5DC875FC4C415A4ED8B9287125A9F9E65FE25A7D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5DC875FC4C415A4ED8B9287125A9F9E65FE25A7D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>scripturetracker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
