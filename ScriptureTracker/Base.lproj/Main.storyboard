@@ -396,6 +396,51 @@
             </objects>
             <point key="canvasLocation" x="1858" y="362"/>
         </scene>
+        <!--Test View Controller-->
+        <scene sceneID="LtF-nh-Cpq">
+            <objects>
+                <viewController storyboardIdentifier="testController" id="ehj-f6-MNa" customClass="TestViewController" customModule="ScriptureTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="80U-6H-BXE"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Pm-77-kzc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rb8-w3-uzd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4y-AQ-7k4">
+                                <rect key="frame" x="272" y="519" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ed9-u7-M9b">
+                                <rect key="frame" x="20" y="15" width="250" height="30"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTouched:" destination="ehj-f6-MNa" eventType="touchUpInside" id="JGl-pN-mZc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="ed9-u7-M9b" id="YQf-Ti-fMH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7u6-NP-8RM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="1049"/>
+        </scene>
     </scenes>
     <resources>
         <image name="family.png" width="188" height="188"/>

@@ -1,0 +1,280 @@
+ [{
+  "name": "Book of Mormon",
+  "books": [
+            {
+            "name": "1 Nephi",
+            "chapters": 22,
+            "sort": 0
+            },
+            {
+            "name": "2 Nephi",
+            "chapters": 33,
+            "sort": 1
+            },
+            {
+            "name": "Jacob",
+            "chapters": 7,
+            "sort": 2
+            },
+            {
+            "name": "Enos",
+            "chapters": 1,
+            "sort": 3
+            },
+            {
+            "name": "Jarom",
+            "chapters": 1,
+            "sort": 4
+            },
+            {
+            "name": "Omni",
+            "chapters": 1,
+            "sort": 5
+            },
+            {
+            "name": "Words of Mormon",
+            "chapters": 1,
+            "sort": 6
+            },
+            {
+            "name": "Mosiah",
+            "chapters": 29,
+            "sort": 7
+            },
+            {
+            "name": "Alma",
+            "chapters": 63,
+            "sort": 8
+            },
+            {
+            "name": "Helaman",
+            "chapters": 16,
+            "sort": 9
+            },
+            {
+            "name": "3 Nephi",
+            "chapters": 30,
+            "sort": 10
+            },
+            {
+            "name": "4 Nephi",
+            "chapters": 1,
+            "sort": 11
+            },
+            {
+            "name": "Mormon",
+            "chapters": 9,
+            "sort": 12
+            },
+            {
+            "name": "Ether",
+            "chapters": 13,
+            "sort": 13
+            },
+            {
+            "name": "Moroni",
+            "chapters": 10,
+            "sort": 14
+            }
+            ]
+  },
+  {
+  "name": "Old Testament",
+  "books": [
+            {
+            "name": "Genesis",
+            "chapters": 50,
+            "sort": 0
+            },
+            {
+            "name": "Exodus",
+            "chapters": 40,
+            "sort": 1
+            },
+            {
+            "name": "Leviticus",
+            "chapters": 27,
+            "sort": 2
+            },
+            {
+            "name": "Numbers",
+            "chapters": 36,
+            "sort": 3
+            },
+            {
+            "name": "Deuteronomy",
+            "chapters": 34,
+            "sort": 4
+            },
+            {
+            "name": "Joshua",
+            "chapters": 24,
+            "sort": 5
+            },
+            {
+            "name": "Judges",
+            "chapters": 21,
+            "sort": 6
+            },
+            {
+            "name": "Ruth",
+            "chapters": 4,
+            "sort": 7
+            },
+            {
+            "name": "1 Samuel",
+            "chapters": 31,
+            "sort": 8
+            },
+            {
+            "name": "2 Samuel",
+            "chapters": 24,
+            "sort": 9
+            },
+            {
+            "name": "1 Kings",
+            "chapters": 22,
+            "sort": 10
+            },
+            {
+            "name": "2 Kings",
+            "chapters": 25,
+            "sort": 11
+            },
+            {
+            "name": "1 Chronicles",
+            "chapters": 29,
+            "sort": 12
+            },
+            {
+            "name": "2 Chronicles",
+            "chapters": 36,
+            "sort": 13
+            },
+            {
+            "name": "Ezra",
+            "chapters": 10,
+            "sort": 14
+            },
+            {
+            "name": "Nehemiah",
+            "chapters": 13,
+            "sort": 15
+            },
+            {
+            "name": "Esther",
+            "chapters": 10,
+            "sort": 16
+            },
+            {
+            "name": "Job",
+            "chapters": 42,
+            "sort": 17
+            },
+            {
+            "name": "Psalms",
+            "chapters": 150,
+            "sort": 18
+            },
+            {
+            "name": "Proverbs",
+            "chapters": 31,
+            "sort": 19
+            },
+            {
+            "name": "Ecclesiastes",
+            "chapters": 12,
+            "sort": 20
+            },
+            {
+            "name": "Song of Solomon",
+            "chapters": 8,
+            "sort": 21
+            },
+            {
+            "name": "Isaiah",
+            "chapters": 66,
+            "sort": 22
+            },
+            {
+            "name": "Jeremiah",
+            "chapters": 52,
+            "sort": 23
+            },
+            {
+            "name": "Lamentations",
+            "chapters": 5,
+            "sort": 24
+            },
+            {
+            "name": "Ezekiel",
+            "chapters": 48,
+            "sort": 25
+            },
+            {
+            "name": "Daniel",
+            "chapters": 12,
+            "sort": 26
+            },
+            {
+            "name": "Hosea",
+            "chapters": 14,
+            "sort": 27
+            },
+            {
+            "name": "Joel",
+            "chapters": 3,
+            "sort": 28
+            },
+            {
+            "name": "Amos",
+            "chapters": 9,
+            "sort": 29
+            },
+            {
+            "name": "Obadiah",
+            "chapters": 1,
+            "sort": 30
+            },
+            {
+            "name": "Jonah",
+            "chapters": 4,
+            "sort": 31
+            },
+            {
+            "name": "Micah",
+            "chapters": 7,
+            "sort": 32
+            },
+            {
+            "name": "Nahum",
+            "chapters": 3,
+            "sort": 33
+            },
+            {
+            "name": "Habakkuk",
+            "chapters": 3,
+            "sort": 34
+            },
+            {
+            "name": "Zephaniah",
+            "chapters": 3,
+            "sort": 35
+            },
+            {
+            "name": "Haggai",
+            "chapters": 2,
+            "sort": 36
+            },
+            {
+            "name": "Zechariah",
+            "chapters": 14,
+            "sort": 37
+            },
+            {
+            "name": "Malachi",
+            "chapters": 13,
+            "sort": 38
+            }
+            ]
+  }]

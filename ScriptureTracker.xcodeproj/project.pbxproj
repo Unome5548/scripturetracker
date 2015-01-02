@@ -19,6 +19,14 @@
 		C667E3261A51B617002683CF /* MarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667E3251A51B617002683CF /* MarkController.swift */; };
 		C667E3281A51D738002683CF /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667E3271A51D738002683CF /* Reading.swift */; };
 		C667E32F1A51EABE002683CF /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C667E32E1A51EABE002683CF /* NSDate+Utilities.m */; };
+		C6B9FF8F1A571FC00031884F /* scriptures.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B9FF8E1A571FC00031884F /* scriptures.json */; };
+		C6B9FF911A5721550031884F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF901A5721550031884F /* Book.swift */; };
+		C6B9FF931A5721550031884F /* SubBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF921A5721550031884F /* SubBook.swift */; };
+		C6B9FF9A1A5728F10031884F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF991A5728F10031884F /* TestViewController.swift */; };
+		C6B9FF9D1A572C0C0031884F /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF9B1A572C0C0031884F /* BookTableViewController.swift */; };
+		C6B9FF9E1A572C0C0031884F /* SubBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF9C1A572C0C0031884F /* SubBookTableViewController.swift */; };
+		C6B9FFA11A5730130031884F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF9F1A5730130031884F /* CustomCell.swift */; };
+		C6B9FFA21A5730130031884F /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B9FFA01A5730130031884F /* CustomCell.xib */; };
 		C6BE72A51A520B1F0011724A /* iphonex2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BE729F1A520B1F0011724A /* iphonex2.png */; };
 		C6BE72A61A520B1F0011724A /* iphonex3.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BE72A01A520B1F0011724A /* iphonex3.png */; };
 		C6BE72A71A520B1F0011724A /* settingsx2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BE72A11A520B1F0011724A /* settingsx2.png */; };
@@ -56,6 +64,14 @@
 		C667E32D1A51EABE002683CF /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "../NSDate+Utilities.h"; sourceTree = "<group>"; };
 		C667E32E1A51EABE002683CF /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "../NSDate+Utilities.m"; sourceTree = "<group>"; };
 		C667E3301A51EC33002683CF /* ObjectiveCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCBridge.h; sourceTree = "<group>"; };
+		C6B9FF8E1A571FC00031884F /* scriptures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scriptures.json; sourceTree = "<group>"; };
+		C6B9FF901A5721550031884F /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		C6B9FF921A5721550031884F /* SubBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubBook.swift; sourceTree = "<group>"; };
+		C6B9FF991A5728F10031884F /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		C6B9FF9B1A572C0C0031884F /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
+		C6B9FF9C1A572C0C0031884F /* SubBookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubBookTableViewController.swift; sourceTree = "<group>"; };
+		C6B9FF9F1A5730130031884F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C6B9FFA01A5730130031884F /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		C6BE729F1A520B1F0011724A /* iphonex2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphonex2.png; sourceTree = "<group>"; };
 		C6BE72A01A520B1F0011724A /* iphonex3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphonex3.png; sourceTree = "<group>"; };
 		C6BE72A11A520B1F0011724A /* settingsx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsx2.png; sourceTree = "<group>"; };
@@ -103,11 +119,10 @@
 		C667E2FB1A51AFC0002683CF /* ScriptureTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C6B9FF941A57215A0031884F /* Models */,
 				C6BE729E1A520B110011724A /* Assets */,
 				C667E32D1A51EABE002683CF /* NSDate+Utilities.h */,
 				C667E32E1A51EABE002683CF /* NSDate+Utilities.m */,
-				C667E3211A51B354002683CF /* family.png */,
-				C667E3221A51B354002683CF /* personal.png */,
 				C667E2FE1A51AFC0002683CF /* AppDelegate.swift */,
 				C667E3031A51AFC0002683CF /* MainViewController.swift */,
 				C667E3251A51B617002683CF /* MarkController.swift */,
@@ -115,9 +130,12 @@
 				C667E3081A51AFC0002683CF /* Images.xcassets */,
 				C667E30A1A51AFC0002683CF /* LaunchScreen.xib */,
 				C667E3001A51AFC0002683CF /* ScriptureTracker.xcdatamodeld */,
-				C667E3271A51D738002683CF /* Reading.swift */,
+				C6B9FF8E1A571FC00031884F /* scriptures.json */,
 				C667E2FC1A51AFC0002683CF /* Supporting Files */,
 				C667E3301A51EC33002683CF /* ObjectiveCBridge.h */,
+				C6B9FF991A5728F10031884F /* TestViewController.swift */,
+				C6B9FF9B1A572C0C0031884F /* BookTableViewController.swift */,
+				C6B9FF9C1A572C0C0031884F /* SubBookTableViewController.swift */,
 			);
 			path = ScriptureTracker;
 			sourceTree = "<group>";
@@ -147,15 +165,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6B9FF941A57215A0031884F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9FF921A5721550031884F /* SubBook.swift */,
+				C6B9FF901A5721550031884F /* Book.swift */,
+				C667E3271A51D738002683CF /* Reading.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		C6BE729E1A520B110011724A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C667E3211A51B354002683CF /* family.png */,
+				C667E3221A51B354002683CF /* personal.png */,
 				C6BE729F1A520B1F0011724A /* iphonex2.png */,
 				C6BE72A01A520B1F0011724A /* iphonex3.png */,
 				C6BE72A11A520B1F0011724A /* settingsx2.png */,
 				C6BE72A21A520B1F0011724A /* settingsx3.png */,
 				C6BE72A31A520B1F0011724A /* spotx2.png */,
 				C6BE72A41A520B1F0011724A /* spotx3.png */,
+				C6B9FF9F1A5730130031884F /* CustomCell.swift */,
+				C6B9FFA01A5730130031884F /* CustomCell.xib */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -241,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B9FFA21A5730130031884F /* CustomCell.xib in Resources */,
 				C6BE72A51A520B1F0011724A /* iphonex2.png in Resources */,
 				C6BE72A61A520B1F0011724A /* iphonex3.png in Resources */,
 				C667E3241A51B354002683CF /* personal.png in Resources */,
@@ -252,6 +285,7 @@
 				C667E3091A51AFC0002683CF /* Images.xcassets in Resources */,
 				C667E3231A51B354002683CF /* family.png in Resources */,
 				C6BE72A91A520B1F0011724A /* spotx2.png in Resources */,
+				C6B9FF8F1A571FC00031884F /* scriptures.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B9FF9D1A572C0C0031884F /* BookTableViewController.swift in Sources */,
 				C667E3041A51AFC0002683CF /* MainViewController.swift in Sources */,
 				C667E32F1A51EABE002683CF /* NSDate+Utilities.m in Sources */,
+				C6B9FF911A5721550031884F /* Book.swift in Sources */,
 				C667E3021A51AFC0002683CF /* ScriptureTracker.xcdatamodeld in Sources */,
 				C667E3261A51B617002683CF /* MarkController.swift in Sources */,
+				C6B9FF9E1A572C0C0031884F /* SubBookTableViewController.swift in Sources */,
+				C6B9FF931A5721550031884F /* SubBook.swift in Sources */,
 				C667E3281A51D738002683CF /* Reading.swift in Sources */,
+				C6B9FF9A1A5728F10031884F /* TestViewController.swift in Sources */,
+				C6B9FFA11A5730130031884F /* CustomCell.swift in Sources */,
 				C667E2FF1A51AFC0002683CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
