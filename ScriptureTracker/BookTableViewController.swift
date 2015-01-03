@@ -36,6 +36,7 @@ class BookTableViewController: UITableViewController {
         dataArray = managedObjectContext?.executeFetchRequest(bookFetch, error: nil)! as? Array<Book>
         var nib : UINib = UINib(nibName: "CustomCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "cell")
+        tableView.backgroundColor = UIColor.lightGrayColor()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -65,12 +66,14 @@ class BookTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
         cell.textLabel!.text = dataArray![indexPath.row].name
+        cell.backgroundColor = UIColor.lightGrayColor()
 
         return cell
     }
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         selectedBook = dataArray![indexPath.row]
+        println("Boom")
         delegate?.transitionToSubBook(selectedBook!.name)
     }
 

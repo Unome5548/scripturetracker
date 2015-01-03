@@ -28,7 +28,7 @@ class SubBookTableViewController: UITableViewController {
         
         var nib : UINib = UINib(nibName: "CustomCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "subBookCell")
-
+        tableView.backgroundColor = UIColor.lightGrayColor()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -69,7 +69,7 @@ class SubBookTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("subBookCell", forIndexPath: indexPath) as UITableViewCell
 
         cell.textLabel!.text = dataArray[indexPath.row].name
-
+        cell.backgroundColor = UIColor.lightGrayColor()
         return cell
     }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C645C6771A575A3A0063A721 /* ChapterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C6751A575A3A0063A721 /* ChapterButton.swift */; };
+		C645C6781A575A3A0063A721 /* ChapterButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = C645C6761A575A3A0063A721 /* ChapterButton.xib */; };
 		C667E2FF1A51AFC0002683CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667E2FE1A51AFC0002683CF /* AppDelegate.swift */; };
 		C667E3021A51AFC0002683CF /* ScriptureTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C667E3001A51AFC0002683CF /* ScriptureTracker.xcdatamodeld */; };
 		C667E3041A51AFC0002683CF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667E3031A51AFC0002683CF /* MainViewController.swift */; };
@@ -27,6 +29,9 @@
 		C6B9FF9E1A572C0C0031884F /* SubBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF9C1A572C0C0031884F /* SubBookTableViewController.swift */; };
 		C6B9FFA11A5730130031884F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9FF9F1A5730130031884F /* CustomCell.swift */; };
 		C6B9FFA21A5730130031884F /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B9FFA01A5730130031884F /* CustomCell.xib */; };
+		C6B9FFB61A5759630031884F /* emptyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9FFB31A5759630031884F /* emptyCircle.png */; };
+		C6B9FFB71A5759630031884F /* fullCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9FFB41A5759630031884F /* fullCircle.png */; };
+		C6B9FFB81A5759630031884F /* halfCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9FFB51A5759630031884F /* halfCircle.png */; };
 		C6BE72A51A520B1F0011724A /* iphonex2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BE729F1A520B1F0011724A /* iphonex2.png */; };
 		C6BE72A61A520B1F0011724A /* iphonex3.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BE72A01A520B1F0011724A /* iphonex3.png */; };
 		C6BE72A71A520B1F0011724A /* settingsx2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BE72A11A520B1F0011724A /* settingsx2.png */; };
@@ -46,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C645C6751A575A3A0063A721 /* ChapterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterButton.swift; sourceTree = "<group>"; };
+		C645C6761A575A3A0063A721 /* ChapterButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterButton.xib; sourceTree = "<group>"; };
 		C667E2F91A51AFC0002683CF /* ScriptureTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScriptureTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C667E2FD1A51AFC0002683CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C667E2FE1A51AFC0002683CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +79,9 @@
 		C6B9FF9C1A572C0C0031884F /* SubBookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubBookTableViewController.swift; sourceTree = "<group>"; };
 		C6B9FF9F1A5730130031884F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		C6B9FFA01A5730130031884F /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		C6B9FFB31A5759630031884F /* emptyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyCircle.png; sourceTree = "<group>"; };
+		C6B9FFB41A5759630031884F /* fullCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullCircle.png; sourceTree = "<group>"; };
+		C6B9FFB51A5759630031884F /* halfCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halfCircle.png; sourceTree = "<group>"; };
 		C6BE729F1A520B1F0011724A /* iphonex2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphonex2.png; sourceTree = "<group>"; };
 		C6BE72A01A520B1F0011724A /* iphonex3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphonex3.png; sourceTree = "<group>"; };
 		C6BE72A11A520B1F0011724A /* settingsx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsx2.png; sourceTree = "<group>"; };
@@ -136,6 +146,8 @@
 				C6B9FF991A5728F10031884F /* TestViewController.swift */,
 				C6B9FF9B1A572C0C0031884F /* BookTableViewController.swift */,
 				C6B9FF9C1A572C0C0031884F /* SubBookTableViewController.swift */,
+				C645C6751A575A3A0063A721 /* ChapterButton.swift */,
+				C645C6761A575A3A0063A721 /* ChapterButton.xib */,
 			);
 			path = ScriptureTracker;
 			sourceTree = "<group>";
@@ -178,6 +190,9 @@
 		C6BE729E1A520B110011724A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C6B9FFB31A5759630031884F /* emptyCircle.png */,
+				C6B9FFB41A5759630031884F /* fullCircle.png */,
+				C6B9FFB51A5759630031884F /* halfCircle.png */,
 				C667E3211A51B354002683CF /* family.png */,
 				C667E3221A51B354002683CF /* personal.png */,
 				C6BE729F1A520B1F0011724A /* iphonex2.png */,
@@ -277,15 +292,19 @@
 				C6BE72A51A520B1F0011724A /* iphonex2.png in Resources */,
 				C6BE72A61A520B1F0011724A /* iphonex3.png in Resources */,
 				C667E3241A51B354002683CF /* personal.png in Resources */,
+				C6B9FFB81A5759630031884F /* halfCircle.png in Resources */,
 				C6BE72A81A520B1F0011724A /* settingsx3.png in Resources */,
+				C6B9FFB71A5759630031884F /* fullCircle.png in Resources */,
 				C667E3071A51AFC0002683CF /* Main.storyboard in Resources */,
 				C6BE72A71A520B1F0011724A /* settingsx2.png in Resources */,
 				C6BE72AA1A520B1F0011724A /* spotx3.png in Resources */,
 				C667E30C1A51AFC0002683CF /* LaunchScreen.xib in Resources */,
 				C667E3091A51AFC0002683CF /* Images.xcassets in Resources */,
+				C6B9FFB61A5759630031884F /* emptyCircle.png in Resources */,
 				C667E3231A51B354002683CF /* family.png in Resources */,
 				C6BE72A91A520B1F0011724A /* spotx2.png in Resources */,
 				C6B9FF8F1A571FC00031884F /* scriptures.json in Resources */,
+				C645C6781A575A3A0063A721 /* ChapterButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +327,7 @@
 				C667E32F1A51EABE002683CF /* NSDate+Utilities.m in Sources */,
 				C6B9FF911A5721550031884F /* Book.swift in Sources */,
 				C667E3021A51AFC0002683CF /* ScriptureTracker.xcdatamodeld in Sources */,
+				C645C6771A575A3A0063A721 /* ChapterButton.swift in Sources */,
 				C667E3261A51B617002683CF /* MarkController.swift in Sources */,
 				C6B9FF9E1A572C0C0031884F /* SubBookTableViewController.swift in Sources */,
 				C6B9FF931A5721550031884F /* SubBook.swift in Sources */,

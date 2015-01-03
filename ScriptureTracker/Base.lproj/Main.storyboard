@@ -408,33 +408,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4y-AQ-7k4">
-                                <rect key="frame" x="272" y="519" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ed9-u7-M9b">
-                                <rect key="frame" x="20" y="15" width="250" height="30"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Button">
-                                            <attributes>
-                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="backButtonTouched:" destination="ehj-f6-MNa" eventType="touchUpInside" id="JGl-pN-mZc"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mf6-Rf-xWf">
+                                <rect key="frame" x="50" y="159" width="500" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What did you read?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paN-x8-ZsF">
+                                        <rect key="frame" x="175" y="39" width="150" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ed9-u7-M9b">
+                                        <rect key="frame" x="8" y="29" width="250" height="30"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="backButtonTouched:" destination="ehj-f6-MNa" eventType="touchUpInside" id="JGl-pN-mZc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="paN-x8-ZsF" secondAttribute="centerX" id="7hs-oc-ms2"/>
+                                    <constraint firstItem="paN-x8-ZsF" firstAttribute="top" secondItem="Mf6-Rf-xWf" secondAttribute="top" constant="39" id="B1Z-a4-OAJ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Mf6-Rf-xWf" secondAttribute="centerX" id="7Wk-Dm-KPD"/>
+                            <constraint firstItem="Mf6-Rf-xWf" firstAttribute="leading" secondItem="Rb8-w3-uzd" secondAttribute="leadingMargin" constant="34" id="7g5-Kq-MSf"/>
+                            <constraint firstItem="Mf6-Rf-xWf" firstAttribute="top" secondItem="80U-6H-BXE" secondAttribute="bottom" constant="139" id="DFJ-8u-eHN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mf6-Rf-xWf" secondAttribute="trailing" constant="34" id="mxK-ly-jH5"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="backButton" destination="ed9-u7-M9b" id="YQf-Ti-fMH"/>
+                        <outlet property="readLabel" destination="paN-x8-ZsF" id="Y2G-Ik-bsF"/>
+                        <outlet property="readView" destination="Mf6-Rf-xWf" id="tmP-jq-pW7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7u6-NP-8RM" userLabel="First Responder" sceneMemberID="firstResponder"/>
